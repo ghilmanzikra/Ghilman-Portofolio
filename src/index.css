@@ -1,0 +1,62 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+  padding: 10px 0 0 0;
+  color: black;
+  transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+}
+
+.navbar.color-active{
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.home{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../src/assets/img/hero/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  
+}
+
+.home h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.navbar .navbar-collapse {
+  background-color: rgba(50, 50, 50, 0.9); /* Warna abu-abu mirip footer */
+  border-radius: 5px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white !important; /* Agar teks lebih jelas */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ddd !important; /* Warna hover */
+}
+
+.navbar-expand-lg {
+  min-height: 60px; /* Sesuaikan tinggi navbar */
+}
+
+.navbar .container {
+  padding: 0 20px; /* Jika butuh lebih luas */
+}
+
